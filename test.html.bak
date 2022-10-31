@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ͼƬ????</title>
+</head>
+<body>
+<style type="text/css">
+<!--
+#picScroll {background: #FFF;overflow:hidden;border: 1px dashed #CCC;width: 745px;}
+#picScroll img {border: 3px solid #F2F2F2;}
+#picSdiv {float: left;width: 800%;}
+#picSdiv1 {float: left;}
+#picSdiv2 {float: left;}
+-->
+</style>
+<div id="picScroll">
+  <div id="picSdiv">
+    <div id="picSdiv1">
+      <a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" ><img src="./img/a1.jpg" border="0" width="185" height="240" /></a>
+      <a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" ><img src="./img/a2.jpg" border="0" width="185" height="240" /></a>
+      <a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" ><img src="./img/a3.jpg" border="0" width="185" height="240" /></a>
+      <a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" ><img src="./img/a4.jpg" border="0" width="185" height="240" /></a>
+      <a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" ><img src="./img/a5.jpg" border="0" width="185" height="240" /></a>
+      <a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" ><img src="./img/a6.jpg" border="0" width="185" height="240" /></a>
+      <a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" ><img src="./img/a7.jpg" border="0" width="185" height="240" /></a>
+      <a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" ><img src="./img/a8.jpg" border="0" width="185" height="240" /></a>
+      <a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" ><img src="./img/a9.jpg" border="0" width="185" height="240" /></a>
+      <a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" ><img src="./img/a10.jpg" border="0" width="185" height="240" /></a>
+      <a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" ><img src="./img/a11.jpg" border="0" width="185" height="240" /></a>
+      <a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" ><img src="./img/a12.jpg" border="0" width="185" height="240" /></a>
+    </div>
+    <div id="picSdiv2"></div>
+  </div>
+</div>
+<script>
+<!--
+var speed=10;
+var picS=document.getElementById("picScroll");
+var picS1=document.getElementById("picSdiv1");
+function Marquee(){
+  if(picS.scrollLeft >= picS1.offsetWidth)
+    picS.scrollLeft =0;
+  else{
+    picS.scrollLeft++;
+  }
+}
+var MyMar=setInterval(Marquee,speed);
+picS.onmouseover=function() {clearInterval(MyMar)};
+picS.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+-->
+</script>
+</body>
+</html>

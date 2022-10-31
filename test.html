@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js实现左右自动切换</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<style>
+    .b2{
+        width: 1190px;
+        height: 147px;
+        margin: 44px auto 0;
+        position: relative;
+        overflow: hidden;
+        background-color: gray;
+    }
+    .b2 .b2list{
+        width: 2655px;
+        height: 147px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .b2 .item{
+        width: 285px;
+        height: 147px;
+        margin-left: 10px;
+        float: left;
+        border-top: 1px solid transparent;
+        background-color: red;
+    }
+</style>
+<body>
+    <div class="b2">
+        <div class="b2list" data="0">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            setInterval("auto_left_me();",3000);
+        });
+        function auto_left_me(){
+            var num = $(".b2 .b2list").attr("data");
+            num++;
+
+            if(num>5){
+                num=0;
+            }
+            $(".b2 .b2list").attr("data",num);
+            $('.b2 .b2list').animate({'left':-295*num});
+        }
+
+    </script>
+</body>
+</html>
